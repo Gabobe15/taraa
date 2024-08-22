@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+section {
+	width: 500px;
+	margin: 50px auto;
+	box-shadow: 5px 5px 5px grey, -5px -5px 5px grey;
+	border-radius: 20px;
+}
+form {
+	width: 80%;
+	margin: 50px auto;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.title {
+	font-size: 2rem;
+	margin-bottom: 20px;
+	color: #020237;
+}
+.input {
+	width: 100%;
+	border: 1px solid black;
+	margin-bottom: 10px;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+.btn {
+	width: 70%;
+	height: 30px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.login-signup {
+	background: #00085c;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+}
+.login-signup > p {
+	text-align: center;
+	font-size: large;
+}
+div > input {
+	outline: 0;
+	border: 0;
+	width: 100%;
+}
+
+.facebook {
+	background: rgb(14, 0, 117);
+	color: #fff;
+	margin-top: 40px;
+}
+.facebook,
+.google {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	border: 1px solid black;
+}
+
+.logo {
+	height: 20px;
+	width: 20px;
+	margin-left: 10px;
+}
+
+.accounts-link {
+	width: 70%;
+	border: none;
+	display: flex;
+	justify-content: space-between;
+}
+.accounts-link > p:first-child {
+	text-decoration: underline;
+}
+
+.signup,
+.login {
+	background: #006d00;
+	color: white;
+	padding: 10px 40px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 1rem;
+	border: none;
+	border-radius: 5px;
+    margin-top: 20px;
+}
+
+.login {
+	background: #04003e;
+	color: white;
+	/* margin-top: 20px; */
+}
+
+.links {
+	display: flex;
+	align-items: center;
+	margin: 10px 0 20px 0;
+}
+.links > .remember {
+	display: flex;
+	align-items: center;
+}
+.links > .forget > a {
+	color: red;
+    margin-left: 30px;
+	text-decoration: none;
+}
+.checkbox {
+	height: 12px;
+	width: 12px;
+	margin-right: 5px;
+	background: #bdafaf;
+	border: 1px solid black;
+}
